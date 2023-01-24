@@ -35,20 +35,20 @@ class MyHeader extends HTMLElement {
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="../index.html" class="nav-item nav-link ">Home</a>
+                    <a href="index.html" class="nav-item nav-link ">Home</a>
 
 
                     <div class="nav-item dropdown">
                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Events</a>
                       <div class="dropdown-menu m-0">
-                        <a href="../events/index.html" class="dropdown-item">Innovanza'22</a>
-                        <a href="../other-events/index.html" class="dropdown-item">Other Events</a>
+                        <a href="events/index.html" class="dropdown-item">Innovanza'22</a>
+                        <a href="other-events/index.html" class="dropdown-item">Other Events</a>
                       </div>
                     </div>
                     <div class="nav-item dropdown">
-                       <a href="../events\index.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Innovanza'23</a>
+                       <a href="events\index.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Innovanza'23</a>
                       <div class="dropdown-menu m-0">
-                        <a href="../events/CodeEThon.html" class="dropdown-item">Code-E-Thon</a>
+                        <a href="events/CodeEThon.html" class="dropdown-item">Code-E-Thon</a>
                         <a href=" " class="dropdown-item">HackThon</a>
                         <a href=" " class="dropdown-item">Setu Nirman</a>
                         <a href=" " class="dropdown-item">Egg Drop</a>
@@ -62,18 +62,18 @@ class MyHeader extends HTMLElement {
                     <div class="nav-item dropdown">
                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Traning & Certification</a>
                       <div class="dropdown-menu m-0">
-                        <a href="../training/index.html" class="dropdown-item">Training</a>
-                        <a href="../certification.html" class="dropdown-item">Certificate Verification</a>
+                        <a href="training/index.html" class="dropdown-item">Training</a>
+                        <a href="certification.html" class="dropdown-item">Certificate Verification</a>
                       </div>
                     </div>
 
-                    <a href="../entrepreneurship/index.html" class="nav-item nav-link">BIICF</a>
+                    <a href="entrepreneurship/index.html" class="nav-item nav-link">BIICF</a>
                  
                     <div class="nav-item dropdown">
                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About US</a>
                       <div class="dropdown-menu m-0">
-                        <a href="../about.html" class="dropdown-item">Mission</a>
-                        <a href="../team/team.html" class="dropdown-item">Our Team</a>
+                        <a href="about.html" class="dropdown-item">Mission</a>
+                        <a href="team/team.html" class="dropdown-item">Our Team</a>
                       </div>
                     </div>
                  
