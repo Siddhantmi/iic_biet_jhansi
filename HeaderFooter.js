@@ -35,39 +35,26 @@ class MyHeader extends HTMLElement {
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="index.html" class="nav-item nav-link ">Home</a>
-
+                    <a href="../index.html" class="nav-item nav-link ">Home</a>
+                    <a href="../events/index.html" class="nav-item nav-link ">Innovanza'23</a>
 
                     <div class="nav-item dropdown">
-                       <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Events</a>
-                      <div class="dropdown-menu m-0">
-                        <a href="events/index.html" class="dropdown-item">Innovanza'22</a>
-                        <a href="other-events/index.html" class="dropdown-item">Other Events</a>
-                      </div>
-                    </div>
-                    <div class="nav-item dropdown">
-                       <a href="events\index.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Innovanza'23</a>
-                      <div class="dropdown-menu m-0">
-                        <a href="events/CodeEThon.html" class="dropdown-item">Code-E-Thon</a>
-                        <a href=" " class="dropdown-item">HackThon</a>
-                        <a href=" " class="dropdown-item">Setu Nirman</a>
-                        <a href=" " class="dropdown-item">Egg Drop</a>
-                        <a href=" " class="dropdown-item">F1 Racing</a>
-                        <a href=" " class="dropdown-item">Exibition</a>
-                
-                      </div>
-                    </div>
-
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Events</a>
+                   <div class="dropdown-menu m-0">
+                     <a href="../events/index.html" class="dropdown-item">Innovanza'22</a>
+                     <a href="../other-events/index.html" class="dropdown-item">Other Events</a>
+                   </div>
+                 </div>
 
                     <div class="nav-item dropdown">
                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Traning & Certification</a>
                       <div class="dropdown-menu m-0">
-                        <a href="training/index.html" class="dropdown-item">Training</a>
-                        <a href="certification.html" class="dropdown-item">Certificate Verification</a>
+                        <a href="../training/index.html" class="dropdown-item">Training</a>
+                        <a href="../certification.html" class="dropdown-item">Certificate Verification</a>
                       </div>
                     </div>
 
-                    <a href="entrepreneurship/index.html" class="nav-item nav-link">BIICF</a>
+                    <a href="../entrepreneurship/index.html" class="nav-item nav-link">BIICF</a>
                  
                     <div class="nav-item dropdown">
                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About US</a>
@@ -88,6 +75,152 @@ class MyHeader extends HTMLElement {
     }
 }
 customElements.define('my-header', MyHeader)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Innovanza header
+class InnovanzaHeader extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+        
+    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <small><i class="fa fa-map-marker-alt me-2"></i>Innovation & Incubation Center, BIET Jhansi</small>
+                <small class="ms-4"><i class="fa fa-envelope me-2"></i>iic.bietjhansi@gmail.com</small>
+            </div>
+            <div class="col-lg-6 px-5 d-flex flex-row text-end">
+                <small class="p-2">Follow us:</small>
+              <a class="text-white-50 p-2 ms-3"
+                    href="https://www.facebook.com/BIET-Jhansi-Innovation-and-Incubation-Cell-116551726553214/"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a class="text-white-50 p-2 ms-3" href="https://www.youtube.com/watch?v=vmAfQXCDPlQ"><i
+                        class="fab fa-youtube"></i></a>
+                <a class="text-white-50 p-2 ms-3"
+                    href="https://www.linkedin.com/company/innovation-and-incubation-cell-biet-jhansi/mycompany/"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a class="text-white-50 p-2 ms-3" href="https://www.instagram.com/iic_bietjhs/"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h1 id ="nav-responsive-big" class="fw-bold text-primary m-0">Innovanza'<span class="text-white">23</span></h1>
+                <h1 id ="nav-responsive-small" class="fw-bold text-primary m-0" >IIC<span class="text-white"> BIET</span></h1>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="../index.html" class="nav-item nav-link ">Home</a>
+
+                    <div class="nav-item dropdown">
+                    <a href="../events/index.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Innovanza'23</a>
+                   <div class="dropdown-menu m-0">
+                     <a href="../events/CodeEThon.html" class="dropdown-item">Code-E-Thon</a>
+                     <a href="../events/Events/Action-Cannon.html" class="dropdown-item">Action Cannon</a>
+                     <a href=../events/Events/Build-o-pump.html" class="dropdown-item">Build-O-Pump</a>
+                     <a href=../events/Circuit-Cracker.html" class="dropdown-item">Circuit Cracker</a>
+                     <a href=../Events/Code-e-thon.html" class="dropdown-item">Code-E-Thone</a>
+                     <a href=../events\Events\Convergence.html" class="dropdown-item">Convergence</a>
+                     <a href=../events\Events\EggDrop.html" class="dropdown-item">Egg Drop</a>
+                     <a href=../events\Events\Gaming-Maniac.html" class="dropdown-item">Gaming Maniac</a>
+                     <a href=../events\Events\Hackathon.html" class="dropdown-item">Hackathon</a>
+                     <a href=../events\Events\HubbleScope.html" class="dropdown-item">Hubble Scope</a>
+                     <a href=../events\Events\Motor-Vi.html" class="dropdown-item">Moter Vi</a>
+                     <a href=../events\Events\Open-Ideas.html" class="dropdown-item">Open Mic for Ideas</a>
+                     <a href=../events\Events\Open-Mic.html" class="dropdown-item">Open Mic</a>
+                     <a href=../events\Events\Pixcellence.html" class="dropdown-item">Pixcellence</a>
+                     <a href=../events\Events\Re-Emblem.html" class="dropdown-item">Re-Emblem</a>
+                     <a href=../events\Events\Robo-Fight.html" class="dropdown-item">Robo Fight</a>
+                     <a href=../events\Events\Robo-Race.html" class="dropdown-item">Robo Race</a>
+                     <a href=../events\Events\Scavenger-Hunt.html" class="dropdown-item">Scavenger Hunt</a>
+                     <a href=../events\Events\Setu-Nirman.html" class="dropdown-item">Setu Nirmaan</a>
+                     <a href=../events\Events\Sneark-the-Peak.html" class="dropdown-item">Sneak The Peak</a>
+                     <a href=../events\Events\Spotless-Aqua.html" class="dropdown-item">Spotless Aqua</a>
+                     <a href=../events\Events\Startup-Conclave.html" class="dropdown-item">Startup Conclave</a>
+                     <a href=../events\Events\Todays-Vinci.html" class="dropdown-item">Exibition</a>
+                     <a href=../events\Events\Vidmora.html" class="dropdown-item">Vidmora</a>
+                    
+             
+                   </div>
+                 </div>
+
+                    <div class="nav-item dropdown">
+                       <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Events</a>
+                      <div class="dropdown-menu m-0">
+                        <a href="../events/index.html" class="dropdown-item">Innovanza'22</a>
+                        <a href="../other-events/index.html" class="dropdown-item">Other Events</a>
+                      </div>
+                    </div>
+                 
+
+
+                    <div class="nav-item dropdown">
+                       <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Traning & Certification</a>
+                      <div class="dropdown-menu m-0">
+                        <a href="../training/index.html" class="dropdown-item">Training</a>
+                        <a href="../certification.html" class="dropdown-item">Certificate Verification</a>
+                      </div>
+                    </div>
+
+                    <a href="../entrepreneurship/index.html" class="nav-item nav-link">BIICF</a>
+                 
+                    <div class="nav-item dropdown">
+                       <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About US</a>
+                      <div class="dropdown-menu m-0">
+                        <a href="about.html" class="dropdown-item">Mission</a>
+                        <a href="team/team.html" class="dropdown-item">Our Team</a>
+                      </div>
+                    </div>
+                 
+                </div>
+
+            </div>
+        </nav>
+    </div>
+
+        
+        `
+    }
+}
+customElements.define('innovanza-header', InnovanzaHeader)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //footer
 class MyFooter extends HTMLElement {
